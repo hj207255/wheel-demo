@@ -1,0 +1,20 @@
+{
+  "name": "wheel-demo",
+  "version": "1.0.0",
+  "description": "# 自制轮子 - Vue UI 组件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hj207255/wheel-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hj207255/wheel-demo/issues"
+  },
+  "homepage": "https://github.com/hj207255/wheel-demo#readme"
+}
