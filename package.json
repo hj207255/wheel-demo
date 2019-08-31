@@ -4,7 +4,8 @@
   "description": "# 自制轮子 - Vue UI 组件",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev-test": "parcel watch test/* --no-cache & karma start",
+    "test": "parcel build test/* --no-cache --no-minify && karma start --single-run"
   },
   "repository": {
     "type": "git",
@@ -18,16 +19,31 @@
   },
   "homepage": "https://github.com/hj207255/wheel-demo#readme",
   "dependencies": {
-    "vue": "^2.5.21",
-    "vue-hot-reload-api": "^2.3.1"
+    "babel-preset-env": "^1.7.0",
+    "karma-babel-preprocessor": "^8.0.1",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.3"
   },
   "devDependencies": {
-    "@vue/component-compiler-utils": "^2.3.1",
+    "@vue/component-compiler-utils": "^2.6.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
     "chai": "^4.2.0",
     "chai-spies": "^1.0.0",
-    "parcel-bundler": "^1.10.3",
-    "sass": "^1.15.2",
-    "vue-template-compiler": "^2.5.21"
+    "karma": "^4.3.0",
+    "karma-chai": "^0.1.0",
+    "karma-chai-spies": "^0.1.4",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-mocha": "^1.3.0",
+    "karma-sinon-chai": "^2.0.2",
+    "mocha": "^6.2.0",
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.22.10",
+    "sinon": "^7.4.1",
+    "sinon-chai": "^3.3.0",
+    "vue-template-compiler": "^2.6.10"
   },
   "alias": {
     "vue": "./node_modules/vue/dist/vue.common.js"
