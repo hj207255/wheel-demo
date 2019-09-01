@@ -1,6 +1,6 @@
 {
   "name": "wheel-demo",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "# 自制轮子 - Vue UI 组件",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/hj207255/wheel-demo.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "qiuxingshandian",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hj207255/wheel-demo/issues"
